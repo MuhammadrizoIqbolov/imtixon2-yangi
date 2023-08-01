@@ -1,0 +1,158 @@
+.about{
+    background: #1B262F;
+   margin-top: 95px;
+     background-position: left top;
+}
+.about_container{
+    display: flex;
+    justify-content: space-between;
+ }
+.about__title{
+    padding-top: 100px;
+    color: #FBFCFE;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    max-width: 445px;
+}
+.about__text{
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    max-width: 445px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.about__logo{
+    align-items: center;
+    padding-top: 190px;
+}
+.about_logo__block{
+    align-items: center;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work_l1{
+   max-width: 117px;
+    height: 15px;
+    flex-shrink: 0;
+    width: 100%;
+}
+.work_l2{
+    max-width: 130px;
+    height: 26px;
+    flex-shrink: 0;
+}
+.work_l3{
+    max-width: 125px;
+    height: 22px;
+    flex-shrink: 0;
+}
+.work_l4{
+   max-width: 118px;
+    height: 14px;
+    flex-shrink: 0;
+}
+.work_l5{
+   max-width: 79px;
+    height: 27px;
+    flex-shrink: 0;
+}
+.work_l6{
+    max-width:  93px;
+    height: 22px;
+    flex-shrink: 0; 
+}
+.w_logo1{
+    padding-left: 60px;
+    padding-bottom: 45px;
+}
+.first_logos{
+    align-items: center;
+    display: flex;
+    padding-top: 90px;
+}
+.second_logos{
+    align-items: center;
+    display: flex;
+}
+.third_logos{
+    align-items: center;
+    display: flex;
+}
+.about__btn{
+    color: #FBFCFE;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    border-radius: 24px;
+    border: 1px solid #FBFCFE;
+    width: 129px;
+    height: 48px;
+    flex-shrink: 0;
+    padding: 16px 32px;
+    margin-bottom: 100px;
+}
+@media screen and (max-width:920px){
+    .about_container{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .about__text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .about__title{
+       max-width: 327px;
+        color: #FBFCFE;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; /* 112.5% */
+        letter-spacing: -0.246px;
+        align-items: center;
+        padding-top: 50px;
+
+    }
+    .w_logo1{
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+    .about__text{
+        color: #FBFCFE;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 186.667% */
+       max-width: 327px;
+    }
+    .about__logo{
+        display: none;
+    }
+    .about_logo__block{
+        display: block;
+        align-items: center;
+        padding-right: 30px;
+    }
+    .w_logo1-6{
+        padding-left: 70px;
+    }
+
+}

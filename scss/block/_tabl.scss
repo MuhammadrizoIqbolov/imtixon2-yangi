@@ -1,0 +1,68 @@
+.tabl_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 96px;
+   
+}
+.tabl_title{
+width: 350px;
+color: #36536B;
+text-align: center;
+margin-left: 30px;
+font-size: 18px;
+margin-top: 32px;
+font-weight: 700;
+line-height: 25px; /* 138.889% */
+letter-spacing: -0.138px;
+}
+.tabl_item1{
+    &::before{
+        content: "";
+        width: 106px;
+        height: 106px;
+        display: inline-block;
+        margin-left: 155px;
+        margin-top: 152px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/money.svg);
+    }
+    }
+.tabl_text{
+width: 350px;
+color: #6C8294;
+text-align: center;
+margin-top: 16px;
+margin-left: 30px;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+letter-spacing: -0.115px;
+}
+.tabl_item2{
+    &::before{
+        content: "";
+        width: 106px;
+        height: 106px;
+        display: inline-block;
+        margin-left: 155px;
+        margin-top: 152px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/tradin.svg);
+    }
+    }
+    .tabl_item3{
+        &::before{
+            content: "";
+            width: 106px;
+            height: 106px;
+            display: inline-block;
+            margin-left: 155px;
+            margin-top: 152px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(../img/payments.svg);
+        }
+        }
